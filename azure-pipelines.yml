@@ -11,6 +11,7 @@ pool:
 
 variables:
   imageName: 'pipelines-javascript-docker'
+  tag: '$(Build.BuildId)'
 
 steps:
 - task: Docker@2
